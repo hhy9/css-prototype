@@ -1,0 +1,68 @@
+@import './formCommon.scss';
+
+.car-form-layout {
+    display: flex;
+
+    .car-form-card {
+        @include card-layout-title;
+
+        .car-form-body {
+            @include card-body;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            .form-flex {
+                display: flex;
+                gap: 3rem;
+                justify-content: flex-start;
+                align-items: center;
+
+                .form-label {
+                    min-width: 30%;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 1.5715;
+                }
+            }
+        }
+
+    }
+
+    // .form-layout {
+    //     border-radius: 0.35rem;
+    //     border: 1px solid #e3e6f0;
+
+    //     .car-form-title {
+    //         padding: 16px 20px 16px 20px;
+    //         background-color: #f8f9fc;
+
+    //         span {
+    //             color: #4d9eee !important;
+    //             font-weight: 700;
+    //             font-size: 1rem;
+    //         }
+    //     }
+
+    //     .car-form-body {
+    //         padding: 1.25rem;
+    //         display: flex;
+    //         flex-direction: column;
+    //         gap: 0.5rem;
+    //         .form-flex {
+    //             display: flex;
+    //             gap: 3rem;
+    //             justify-content: flex-start;
+    //             align-items: center;
+    //             .form-label {
+    //                 min-width: 30%;
+    //                 font-weight: 700;
+    //                 font-size: 14px;
+    //                 line-height: 1.5715;
+    //             }
+    //         }
+
+    //     }
+    // }
+
+}
