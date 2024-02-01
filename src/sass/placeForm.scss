@@ -1,12 +1,11 @@
 @import './formCommon.scss';
 
-.car-form-layout {
+.place-form-layout {
     display: flex;
 
-    .car-form-card {
+    .place-form-card {
         @include card-layout-title;
-
-        .car-form-body {
+        .place-form-body {
             @include card-body;
             display: flex;
             flex-direction: column;
@@ -16,6 +15,5 @@
                 @include form-label-input;
             }
         }
-
     }
 }

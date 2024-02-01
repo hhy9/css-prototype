@@ -30,7 +30,6 @@ const CarForm = () => {
             </div>
           </div>
         </div>
-        <div>차량 목록</div>
       </div>
     </>
   );

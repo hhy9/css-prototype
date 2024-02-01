@@ -18,3 +18,17 @@
     padding: 1.25rem;
     flex: 1 1 auto;
 }
+
+@mixin form-label-input($gap: 3rem) {
+    display: flex;
+    gap: $gap;
+    justify-content: flex-start;
+    align-items: center;
+
+    .form-label {
+        flex-grow: 1;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.5715;
+    }
+}
