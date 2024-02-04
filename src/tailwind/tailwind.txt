@@ -1,0 +1,33 @@
+1. npm install -D tailwindcss
+2. npx tailwindcss init
+
+그 후 tailwind.config.js 가 생김
+
+tailwind.config.js에 
+3. content: ["./src/**/*.{html,js}"]를 추가
+4. postCss Language supprt 플러그인 설치
+5.npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch
+
+6.빌드하여 나온 결과물인 ./dist/output.css를 index.html에  <link href="./dist/output.css" rel="stylesheet"> 추가
+
+7. 그 후 컴포넌트에서 tailwind 클래스 네임을 작성하여 만듬
+
+
+
+*
+플러그인으로
+Tailwind Twin IntelliSense 설치 후
+vscode에서 open user setting(json) 켜서
+ "files.associations": {
+        "*.css": "tailwindcss",
+        "*.sql": "sql"
+    },
+
+      "editor.quickSuggestions": {
+        "strings": true
+    }
+
+
+
+
+
